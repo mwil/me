@@ -1,0 +1,22 @@
+/* body { background-image: linear-gradient(#f9f9f9,#eee) !important; } */
+body { background-image: #eee !important; }
+
+span.title { font-weight: bold;}
+span.conf  { font-style:  italic;}
+
+span.indent {padding-left: 2em;}
+
+.ui-page {
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative !important;
+}
+
+a.ui-link-inherit {
+	white-space: normal !important;
+	target-new: tab;
+}
+
+#pub-lv li {
+	font-weight: normal;
+}
