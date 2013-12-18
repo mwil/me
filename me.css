@@ -1,15 +1,10 @@
-/* body { background-image: linear-gradient(#f9f9f9,#eee) !important; } */
-body { background-image: #eee !important; }
-
 span.title { font-weight: bold;}
 span.conf  { font-style:  italic;}
 
-span.indent {padding-left: 2em;}
-
-.ui-page {
-	max-width: 1000px;
-	margin: 0 auto;
-	position: relative !important;
+@media only screen and (min-width: 800px) {
+	.ui-content[data-role=content] {
+		padding: 16px 8% 3.5em;
+	}
 }
 
 a.ui-link-inherit {
@@ -19,4 +14,13 @@ a.ui-link-inherit {
 
 #pub-lv li {
 	font-weight: normal;
+}
+
+#proj-lv li {
+	font-weight: normal;
+}
+
+#bibtex-textarea {
+	font-family: monospace;
+	font-size: smaller;
 }
