@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-iconpos="right" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u">
+	<div data-role="collapsible">
+		<h3>Reception of Concurrent Transmissions in Wireless Sensor Networks (2013&#8211;2014)</h3>
+
+		<table class="project-summary-table">
+		<tr>
+			<td class="project-desc">
+				<p>When several senders transmit packets simultaneously their signals collide at the receiver, typically rendering the transmissions unusable. However, under certain circumstances, one or even all packets in a collision may be received successfully. In this project we identify the preconditions for successful reception, analyzing the reasons for success using a physical layer model of the interference channel, and validate our predictions by simulation and experiments.</p>
+
+				<p>For more information, visit the <a href="#">project page.</a></p>
+			</td>
+			<td class="project-fig"><img src="figs/collision/msk_wave/png/msk_wave.png" alt="Figure of MSK-modulated waveform."/></td>
+		</tr>
+		</table>
+	</div>
+
+	<div data-role="collapsible">
+		<h3>WiFire &#8212; A Firewall for Wireless Networks (2010&#8211;2013)</h3>
+
+		<table class="project-summary-table">
+		<tr>	
+			<td class="project-desc">
+				<p>Securing wireless sensor networks (WSNs) is a hard problem. In particular, network access control is notoriously difficult to achieve due to the inherent broadcast characteristics of wireless communications: an attacker can easily target any node in its transmission range and affect large parts of a sensor network simultaneously. In this project, we explore the feasibility of using a distributed guardian system to protect a WSN based on physically regulating channel access by means of selective interference.</p>
+				<p>The guardians are deployed alongside a sensor network, inspecting all local traffic, classifying packets based on their content, and destroying any malicious packet while still on the air. In that sense, the system tries to gain "air dominance" over attackers. A key challenge in implementing the guardian system is the resulting real-time requirement in order to classify and destroy packets during transmission.</p>
+				<p>We have developed a USRP2 software radio based guardian for IEEE 802.15.4 that meets this challenge; using an FPGA-based design we can even check for the content of the very last payload byte of a packet and still prevent its reception by a potential victim mote.</p>
+
+				<p>For more information, visit the <a href="#">project page.</a></p>
+			</td>
+			<td class="project-fig"><img src="figs/wifire/png/field.png" alt="Exerimental setup on a sports field."/></td>
+		</tr>
+		</table>
+	</div>
+
+	<div data-role="collapsible">
+		<h3>Wireless Key Generation in Wireless Sensor Networks (2009&#8211;2010)</h3>
+
+		<table class="project-summary-table">
+		<tr>
+			<td class="project-desc">
+				<p>Key management in wireless sensor networks faces several unique challenges. The scale, resource limitations, and new threats such as node capture suggest the use of in-network key generation. However, the cost of such schemes is often high because their security is based on computational complexity. Recently, several research contributions justified experimentally that the wireless channel itself can be used to generate information-theoretic secure keys. By exchanging sampling messages during device movement, a bit string is derived known only to the two involved entities. Yet, movement is not the only option to generate randomness: the channel response strongly depends on the signal frequency as well.</p>
+				<p> In this project, we introduce a key generation protocol based on the <i>frequency-selectivity</i> of multi-path fading channels. The practical advantage of this approach is that it does not require device movement during key establishment. Thus the frequent case of a sensor network with static nodes is supported. We show the protocol's applicability by implementing it on MICAz motes, and evaluating its robustness and security through experiments and analysis. The error correction property of the protocol mitigates the effects of measurement errors and temporal effects, giving rise to an agreement rate of over 97%.</p>
+
+				<p>For more information, visit the <a href="#">project page.</a></p>
+			</td>
+			<td class="project-fig"><img src="figs/keygen/png/keygen-res.png" alt="Line graph showing the results of the experimental evaluation."/></td>
+		</tr>
+		</table>
+	</div>
+</div>

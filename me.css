@@ -24,3 +24,19 @@ a.ui-link-inherit {
 	font-family: monospace;
 	font-size: smaller;
 }
+
+.ui-page { 
+	background:#FFFFFF;
+}
+
+.project-summary-table td {
+	padding: 0px 16px;
+}
+
+.project-desc {
+	vertical-align: top;
+}
+
+.project-fig {
+	vertical-align: middle;
+}

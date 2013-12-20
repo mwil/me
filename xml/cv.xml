@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ul data-role="listview" data-inset="true" data-icon="false">
+	<li data-role="list-divider">2012</li>
+	
+	<li><a href="http://src.acm.org/previouswinners.html" target="_blank">
+			Graduate 2nd Place in ACM Student Research Competition Grand Finals 2012 for my entry "WiFire&#8212;A Guardian Angel for Wireless Networks" (San Francisco, June 2012)
+		</a>
+	</li>
+	<li><a href="#">Scholarship from the Technical University of Kaiserslautern (2012&#8211;2014)</a></li>
+	
+	<li data-role="list-divider">2011</li>
+	
+	<li><a href="http://src.acm.org/previouswinners.html" target="_blank">
+			ACM Student Research Competition Graduate 1st Place at ACM SIGCOMM 2011 for my demo "WiFire&#8212;A Firewall for Wireless Networks" (Toronto, Aug. 2011)
+		</a>
+	</li>
+	
+	<li data-role="list-divider">2010</li>
+	
+	<li><a href="http://www.cooperating-objects.eu/events/ewsn-2010-awards" target="_blank">
+			EWSN 2010/CONET M.Sc. Academic Award for my master's thesis (Coimbra, Feb. 2010)
+		</a>
+	</li>
+	
+	<li data-role="list-divider">2009</li>
+	
+	<li><a href="#">Scholarship from the Department of Computer Science of the Technical University of Kaiserslautern (2009&#8211;2011)</a></li>
+	<li><a href="#">Diplom Technoinformatik (M.Sc. in CS/EE) from the Technical University of Kaiserslautern (Sept. 2009)</a></li>
+</ul>

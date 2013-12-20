@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="xslt/index.xslt"?>
+
+<site>
+	<page id="main">
+		<mw-summary/>
+		<project-summary/>
+		<publications/>
+		<cv-items/>
+		<contact/>
+		
+		<bibtex-popup/>
+	</page>
+</site>

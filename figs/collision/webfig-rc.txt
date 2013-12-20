@@ -1,0 +1,21 @@
+backend : agg
+
+axes.labelsize : 10
+axes.titlesize : 10
+
+text.usetex : True
+
+xtick.labelsize : 9
+ytick.labelsize : 9
+
+figure.figsize : 3, 3
+
+font.family : serif
+font.serif : Times
+
+legend.labelspacing : 0.25
+legend.fontsize : 9
+legend.numpoints : 1
+
+savefig.bbox : tight
+savefig.pad_inches : 0.01
