@@ -17,7 +17,10 @@ $(document).on("pageinit", "#main", function(){
 
 $(document).on("click", ".bibtex-btn", function() {
 	$.post('../cgi-bin/pubs.py', {'command': 'bibentry', 'bibkey': $(this).data("bibkey")}, function(response) {
+		$("#bibtex-textarea").height( "24px" ); // Make area to small to make a minimum fit again.
 		$("#bibtex-textarea").val(response);
+		$("#bibtex-textarea").height( $("#bibtex-textarea")[0].scrollHeight );
+
 		$("#bibtex-popup").popup("open");
 	});
 });

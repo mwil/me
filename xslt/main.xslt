@@ -10,27 +10,27 @@
 	</xsl:template>
 
 	<xsl:template match="project-summary">
-		<xsl:text disable-output-escaping='yes'>&lt;br/></xsl:text>
+		<xsl:text disable-output-escaping='yes'>&lt;br /></xsl:text>
 		<h2><xsl:text>List of Research Projects</xsl:text></h2>
-		<xsl:copy-of select="document('../xml/project-summary.xml')"/>
+		<xsl:copy-of select="document('../xml/project-summary.xml')" />
 	</xsl:template>
 
 	<xsl:template match="publications">
-		<xsl:text disable-output-escaping='yes'>&lt;br/></xsl:text>
+		<xsl:text disable-output-escaping='yes'>&lt;br /></xsl:text>
 		<h2><xsl:text>List of Publications</xsl:text></h2>
-		<xsl:copy-of select="document('../xml/pubs.xml')"/>
+		<xsl:copy-of select="document('../xml/pubs.xml')" />
 	</xsl:template>
 
 	<xsl:template match="cv-items">
-		<xsl:text disable-output-escaping='yes'>&lt;br/></xsl:text>
+		<xsl:text disable-output-escaping='yes'>&lt;br /></xsl:text>
 		<h2><xsl:text>Random CV Items</xsl:text></h2>
-		<xsl:copy-of select="document('../xml/cv.xml')"/>
+		<xsl:copy-of select="document('../xml/cv.xml')" />
 	</xsl:template>
 
 	<xsl:template match="contact">
-		<xsl:text disable-output-escaping='yes'>&lt;br/></xsl:text>
+		<xsl:text disable-output-escaping='yes'>&lt;br /></xsl:text>
 		<h2><xsl:text>Contact</xsl:text></h2>
-		<xsl:copy-of select="document('../xml/contact.xml')"/>
+		<xsl:copy-of select="document('../xml/contact.xml')" />
 	</xsl:template>
 
 	<xsl:template match="bibtex-popup">
@@ -41,7 +41,7 @@
 			<h4><xsl:text>BibTeX entry:</xsl:text></h4>
 
 			<form>
-				<textarea cols="120" rows="8" id="bibtex-textarea"/>
+				<textarea cols="120" rows="8" id="bibtex-textarea" />
 			</form>
 		</div>
 	</xsl:template>
