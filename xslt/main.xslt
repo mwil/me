@@ -23,7 +23,7 @@
 
 	<xsl:template match="cv-items">
 		<xsl:text disable-output-escaping='yes'>&lt;br /></xsl:text>
-		<h2><xsl:text>Random CV Items</xsl:text></h2>
+		<h2><xsl:text>Awards and Achievements</xsl:text></h2>
 		<xsl:copy-of select="document('../xml/cv.xml')" />
 	</xsl:template>
 

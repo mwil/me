@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ul data-role="listview" data-inset="true" data-icon="false">
+	<li data-role="list-divider">2014</li>
+
+	<li><a href="http://www.heidelberg-laureate-forum.org" target="_blank">
+			Invitation to the Heidelberg Laureate Forum (Heidelberg, Sept. 2014)
+		</a>
+	</li>
+
 	<li data-role="list-divider">2012</li>
 	
 	<li><a href="http://src.acm.org/previouswinners.html" target="_blank">
