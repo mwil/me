@@ -8,6 +8,17 @@
 -->
 
 <ul data-role="listview" id="pub-lv" data-filter="true" data-inset="true" data-split-theme="c" data-split-icon="bars">
+	<li data-role="list-divider">2014</li>
+	
+	<li>
+		<a href="#">
+			Michael Spuhler, Domenico Giustiniano, Vincent Lenders, Matthias Wilhelm, and Jens B. Schmitt.
+			<span class="title">Detection of Reactive Jamming in DSSS-based Wireless Communications</span>. 
+			To appear in <span class="conf">IEEE Transactions on Wireless Communications</span>, accepted for publication on December 20, 2013.
+		</a>
+		<a href="#" class="bibtex-btn" data-bibkey="SGLWS14">BibTeX</a>
+	</li>
+
 	<li data-role="list-divider">2013</li>
 
 	<li>
